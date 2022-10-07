@@ -124,7 +124,7 @@ public class PersonalChatActivity extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 Toast.makeText(PersonalChatActivity.this, "Message sent successfully", Toast.LENGTH_SHORT).show();
                             } else {
-                                Toast.makeText(PersonalChatActivity.this, "Error", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(PersonalChatActivity.this, "Error sent message", Toast.LENGTH_SHORT).show();
                             }
 
                             messageInputText.setText("");
