@@ -126,6 +126,8 @@ public class PersonalChatActivity extends AppCompatActivity {
 
                         messagesList.add(messages);
                         adapter.notifyDataSetChanged();
+
+                        userMessageRecyclerView.smoothScrollToPosition(userMessageRecyclerView.getAdapter().getItemCount());
                     }
 
                     @Override
